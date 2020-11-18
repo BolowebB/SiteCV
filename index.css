@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, sans-serif;
+}
+
+header {
+
+}
+
+H1 {
+color: black;
+}
+
+body {
+    height: auto;
+    width: 100vw;
+    display: block;
+    z-index: 100;
+
+}
+
+main {
+    width: auto;
+    height: auto;
+
+
+}
+
+H1 {
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-family: "Courier New", Courier, sans-serif;
+    text-transform: uppercase;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+#primo {
+    width: 100%;
+    height: auto;
+}
+
+#tof {
+    background-color: white;
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    left: 21%;
+    border-radius: 10% 10%;
+    box-shadow: -12px 9px 20px -4px rgba(0,0,0,0.75);
+    top: 510px;
+    z-index: 9;
+
+}
+
+#text_moi {
+    background-color: black;
+    height: 500px;
+    width: 50%;
+    margin-left: 35%;
+    margin-top: 210px;
+    opacity: 80%;
+}
+
+#text_moi p {
+    color: white;
+    box-sizing: border-box;
+    padding: 19% 10%;
+
+}
+
+a {
+    width: max-content;
+    height: max-content;
+}
+
+#act_cal {
+    width: 100px;
+    height: 100px;
+    background-image: url(image/icone_acc.png);
+    background-position: center;
+    color: transparent !important;
+    border-color: transparent;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    margin: 50px 0 144px 50%;
+    cursor: pointer;
+    background:linear-gradient(135deg, #F5515F 0%,#A1051D 100%);
+    animation: actcal 1s infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes actcal{
+
+    from{
+
+        box-shadow:0 0 5px hsl(0,53%,46%)
+
+    }
+    to{
+
+        box-shadow:0 0 15px hsl(0,50%,46%)
+
+    }
+
+}
+
+
+#flacc {
+    position: relative;
+    top: 30%;
+    left: 29.4%;
+}
+
+#flacc:active {
+
+}
+
+
+H2 {
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-family: "Courier New", Courier, sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-transform: uppercase;
+}
+
+.cadho{
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    backdrop-filter: blur(20);
+    display: flex;
+
+}
+
+.eto{
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.cadbas .eto{
+    position: relative;
+    top: 41px;
+}
+
+.h_skil {
+    width: auto;
+    height: auto;
+    display: grid;
+    margin: 0 auto;
+}
+
+.block {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.block ul {
+    list-style: none;
+    width: 80%;
+    height: auto;
+}
+
+.block ul li{
+    margin-bottom: 5px;
+    color: black;
+    font-size: 1.3em;
+    line-height: 35px;
+}
+
+
+#trio {
+    background-repeat: no-repeat;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+    background-image: url("image/b_detc.jpg");
+    background-size: cover;
+}
+
+
+
+.cadre {
+    width: 20%;
+    height: 500px;
+    background-color: white;
+    border-radius: 5%;
+    display: inline-grid;
+    margin: 200px 0 80px 2.5%;
+    border: outset 2px #f33;
+}
+
+ h4 {
+     font-size: 2em;
+     text-align: center;
+ }
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 29px;
+}
+
+.timcadre {
+    width: 90%;
+    height: auto;
+    background-color: white;
+    opacity: 90%;
+    margin: 0 auto;
+}
+
+
+#timligne {
+    width: 10px;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2% 0;
+    list-style: none;
+
+}
+
+.point {
+    background-color: darkred;
+    border: #ff3333;
+    border-radius: 50%;
+    width: 85px;
+    height: 80px;
+    opacity: 100%;
+    position: relative;
+    border-bottom-style: ridge;
+    right: 39px;
+    margin-bottom: 150px;
+}
+
+.timflag_dr {
+    background-color: floralwhite;
+    box-sizing: border-box;
+    padding: 12%;
+    display: inline-grid;
+    position: relative;
+    left: 120px;
+    width: 300px;
+    font-size: 1.2em;
+}
+
+.timflag_gch {
+    background-color: floralwhite;
+    box-sizing: border-box;
+    padding: 12%;
+    display: inline-grid;
+    position: relative;
+    right: 325px;
+    font-size: 1.2em;
+    width: 300px;
+}
+
+.dateflag_dr {
+    width: 260px;
+    height: auto;
+    position: relative;
+    left: 140px;
+    font-size: 1em;
+    display: none;
+}
+
+.dateflag_gch {
+    width: 260px;
+    height: auto;
+    position: relative;
+    right: 301px;
+    font-size: 1em;
+    display: none;
+}
+
+.dat_dr{
+    display: block;
+    width: 200px;
+    color: red;
+    margin-top: 20px;
+    background-color: beige;
+}
+
+.dat_gch {
+    display: block;
+    width: 200px;
+    color: red;
+    margin-top: 20px;
+    background-color: beige;
+}
+.point:hover {
+        background-color: #ff3333;
+    border-color: darkred;
+}
+
+.point:hover .dateflag_dr  {
+    display: block;
+}
+.point:hover .dateflag_gch  {
+    display: block;
+}
+
+
+
+
+

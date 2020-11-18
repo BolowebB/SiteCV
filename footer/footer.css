@@ -1,0 +1,18 @@
+body{
+    width: 100vw;
+    height: 1200px;
+}
+#footer {
+    width: 90%;
+    height: 100px;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+    margin-left: 50px;
+    line-height: 100px;
+}
+
