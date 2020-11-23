@@ -1,43 +1,45 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Courier New", Courier,sans-serif;
 }
-.etat {
+
+nav{
+
+}
+
+ul{
+    list-style: none;
+}
+#etat {
     background-image: url("../image/menu_hidden.png");
     height: 350px;
     background-repeat: no-repeat;
     position: fixed;
+    z-index: 100;
     width: 100%;
+    display: flex;
     transition: all 250ms;
 }
 
 
 
-.etat:hover {
+#etat:hover {
     background-image: url("../image/menu_hover.png");
     background-repeat: no-repeat;
     height: 350px;
-    /*position: relative;*/
     width: 100%;
-    height: 350px;
-    list-style: none;
 }
-.etat ul li a {display: none;}
+#etat ul.menu{visibility: hidden}
 
-.etat:hover ul li a { display:block}
+#etat:hover ul.menu { visibility: visible}
 
 
- li a{
-
-    font-family: "Courier New", Courier;
+ .menu_hov {
     font-size: 1.4em;
     font-weight: bold;
-    padding: 15px 10px 15px 5px;
-
-
+    padding: 5px 20px 15px 5px;
 }
-
-
 
 a {
     text-decoration: none;
@@ -45,28 +47,75 @@ a {
     height: auto;
 }
 
-li:hover {
-    display: block;
+.flex {
+    display: flex;
 }
 
-.icone {
+.sous_menu {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+/*                      img.icone= image qui possede classe "icone"                          */
+.flex ul li a img.icone{
     width: 50px;
     height: 50px;
-    position: absolute;
-    left: 322px;
-    top: 14px;
+    position: relative;
+    left: 60px;
+}
+/*                      img.icone= image qui possede ID "icone"                          */
+div img#icone {
+    width: 200px;
+    height:200px;
+    position: relative;
+    top: 0;
+    right: 0;
+    visibility: hidden;
+
 }
 
-.un {
-    top: 80px;
-    left: 304px;
-    border-radius: 50%;
+#etat:hover .flex div img#icone {
+    display: none;
 }
 
-.deux {
-    top: 139px;
-    left: 282px;
+#icone_f {
+    visibility: hidden;
 }
+
+#etat:hover .flex  #icone_f {
+    visibility: visible;
+}
+
+a li .un {
+    right: 46px;
+}
+
+a li .deux {
+    right: 89px;
+}
+
+#flag_tel {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(135deg, transparent 0%, whitesmoke 100% );
+    border-radius: 20px;
+    padding: 2px 2px;
+    margin: 5px 0;
+    display: inline-block;
+    opacity: 60%;
+}
+
+#ico_tel:hover p#flag_tel {
+    display: inline-block;
+}
+
+
+
+
+
+
 
 
 

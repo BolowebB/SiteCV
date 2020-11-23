@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb37f5f0-73b8-4b19-aa3c-e78d434436bb" name="Default Changelist" comment="" />
+    <list default="true" id="eb37f5f0-73b8-4b19-aa3c-e78d434436bb" name="Default Changelist" comment="site cv">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/tel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +46,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SiteCV" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/../../../MAMP_2020-10-27_13-53-41/htdocs/Site_cv" />
     </include_path>
@@ -36,8 +67,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -81,21 +114,46 @@
       <workItem from="1605376431421" duration="8796000" />
       <workItem from="1605512798051" duration="15380000" />
       <workItem from="1605599327254" duration="7437000" />
-      <workItem from="1605624367217" duration="4259000" />
+      <workItem from="1605624367217" duration="5107000" />
+      <workItem from="1605690017733" duration="35472000" />
+      <workItem from="1605795141373" duration="51273000" />
+      <workItem from="1606139153274" duration="3433000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="site cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="site cv" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="387" y="94" key="#PHP" timestamp="1605101993889">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state x="302" y="103" key="#CLI_Interpreters" timestamp="1605772253913">
+      <screen x="0" y="25" width="1440" height="830" />
+    </state>
+    <state x="302" y="103" key="#CLI_Interpreters/0.25.1440.830@0.25.1440.830" timestamp="1605772253913" />
+    <state x="387" y="95" key="#PHP" timestamp="1605772255892">
+      <screen x="0" y="25" width="1440" height="830" />
     </state>
     <state x="387" y="94" key="#PHP/0.23.1440.837@0.23.1440.837" timestamp="1605101993889" />
-    <state x="188" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603892452221">
-      <screen x="0" y="23" width="1440" height="833" />
+    <state x="387" y="95" key="#PHP/0.25.1440.830@0.25.1440.830" timestamp="1605772255892" />
+    <state x="188" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605689655605">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="188" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605689655605" />
     <state x="188" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.833@0.23.1440.833" timestamp="1603892452221" />
     <state x="188" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.834@0.23.1440.834" timestamp="1603886431262" />
     <state x="188" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.835@0.23.1440.835" timestamp="1603885433797" />
@@ -107,6 +165,11 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="426" y="120" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.833@0.23.1440.833" timestamp="1603893007577" />
+    <state x="304" y="0" width="831" height="828" key="CommitChangelistDialog2" timestamp="1606145987637">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="304" y="25" width="831" height="828" key="CommitChangelistDialog2/0.-1055.1920.1055/0.25.1440.828@0.25.1440.828" timestamp="1605690051244" />
+    <state x="304" y="0" key="CommitChangelistDialog2/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1606145987637" />
     <state x="543" y="350" key="NewPhpFileDialog" timestamp="1603807545624">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
