@@ -2,15 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: "Courier New", Courier, sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
 
 }
 
-H1 {
-color: black;
-}
 
 body {
     height: auto;
@@ -27,10 +25,10 @@ main {
 
 }
 
-H1 {
+h1 {
+    color: black;
     text-align: center;
     font-size: 3em;
-    color: black;
     font-family: "Courier New", Courier, sans-serif;
     text-transform: uppercase;
 }
@@ -46,6 +44,9 @@ H1 {
 #primo {
     width: 100%;
     height: auto;
+    background-image: url("../image/b_first.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #tof {
@@ -55,10 +56,17 @@ H1 {
     position: absolute;
     left: 21%;
     border-radius: 10% 10%;
-    box-shadow: -12px 9px 20px -4px rgba(0,0,0,0.75);
+    box-shadow: -12px 9px 20px -4px rgba(0, 0, 0, 0.75);
     top: 510px;
     z-index: 9;
+    background-image: url("../image/man.jpg");
+}
 
+#me_moi {
+    width: 300px;
+    height: auto;
+    position: relative;
+    bottom: 102px;
 }
 
 #text_moi {
@@ -67,6 +75,8 @@ H1 {
     width: 50%;
     opacity: 80%;
     margin: 210px 0 300px 35%;
+    overflow: hidden;
+
 }
 
 #text_moi p {
@@ -74,6 +84,24 @@ H1 {
     box-sizing: border-box;
     padding: 0 15%;
     line-height: 40px;
+
+}
+
+@keyframes slide {
+    0% {
+        /*transform: translate3d(-100%, 0, 0);*/
+        transform: translate(-100%);
+    }
+    100% {
+        /*transform: translate3d(0,0,50px);*/
+        transform: translate();
+    }
+}
+
+#mon_prenom {
+    animation-name: slide;
+    animation-duration: 1s;
+
 }
 
 a {
@@ -87,22 +115,22 @@ a {
     color: transparent !important;
     border-color: transparent;
     cursor: pointer;
-    background:linear-gradient(135deg, #F5515F 0%,#A1051D 100%);
+    background: linear-gradient(135deg, #F5515F 0%, #A1051D 100%);
     animation: actcal 1s infinite alternate;
     border-radius: 50%;
     margin: 0 auto;
 }
 
-@keyframes actcal{
+@keyframes actcal {
 
-    from{
+    from {
 
-        box-shadow:0 0 5px hsl(0,53%,46%)
+        box-shadow: 0 0 5px hsl(0, 53%, 46%)
 
     }
-    to{
+    to {
 
-        box-shadow:0 0 15px hsl(0,50%,46%)
+        box-shadow: 0 0 15px hsl(0, 50%, 46%)
 
     }
 
@@ -120,7 +148,7 @@ a {
 }
 
 
-H2 {
+h2 {
     text-align: center;
     font-size: 3em;
     color: black;
@@ -130,7 +158,7 @@ H2 {
     text-transform: uppercase;
 }
 
-.cadho{
+.cadho {
     box-sizing: border-box;
     padding: 10px 0 10px 0;
     margin: 0 auto;
@@ -138,7 +166,7 @@ H2 {
     width: 90%;
 }
 
-.eto{
+.eto {
     width: 100px;
     height: auto;
     margin: 0 auto;
@@ -146,7 +174,7 @@ H2 {
     align-self: flex-end;
 }
 
-.cadbas .eto{
+.cadbas .eto {
     position: relative;
     top: 2px;
 }
@@ -174,7 +202,7 @@ H2 {
     height: auto;
 }
 
-.block ul li{
+.block ul li {
     margin-bottom: 5px;
     color: black;
     font-size: 1.3em;
@@ -187,10 +215,9 @@ H2 {
     min-width: 100%;
     height: auto;
     width: auto;
-    background-image: url("image/b_detc.jpg");
+    background-image: url("../image/b_detc.jpg");
     background-size: cover;
 }
-
 
 
 .cadre {
@@ -203,10 +230,10 @@ H2 {
     border: outset 2px #f33;
 }
 
- h4 {
-     font-size: 2em;
-     text-align: center;
- }
+h3 {
+    font-size: 2em;
+    text-align: center;
+}
 
 p {
     font-size: 1.5em;
@@ -287,7 +314,7 @@ p {
     display: none;
 }
 
-.dat_dr{
+.dat_dr {
     display: block;
     width: 200px;
     color: red;
@@ -302,24 +329,26 @@ p {
     margin-top: 20px;
     background-color: beige;
 }
+
 .point:hover {
-        background-color: #ff3333;
+    background-color: #ff3333;
     border-color: darkred;
 }
 
-.point:hover .dateflag_dr  {
-    display: block;
-}
-.point:hover .dateflag_gch  {
+.point:hover .dateflag_dr {
     display: block;
 }
 
-form{
+.point:hover .dateflag_gch {
+    display: block;
+}
+
+form {
     width: 80%;
     height: auto;
     display: grid;
     margin: 0 auto;
-    background:linear-gradient(135deg, transparent 0%,black 50%, transparent 100%);
+    background: linear-gradient(135deg, transparent 0%, black 50%, transparent 100%);
     opacity: 80%;
     border: 4px double;
     border-radius: 30px;
@@ -332,7 +361,7 @@ form{
     grid-column: 1;
 }
 
-#form_drt{
+#form_drt {
     width: 100%;
     height: auto;
     grid-column: 2;
@@ -380,40 +409,47 @@ textarea {
         top: 694px;
         left: 34.5%;
     }
+
     #text_moi {
         margin: 210px auto 300px auto;
     }
+
     .cadre {
         width: 21%;
     }
 }
 
-@media (max-width:1199px) and (min-width:768px) {
+@media (max-width: 1199px) and (min-width: 768px) {
     h1 {
         padding-top: 120px;
     }
+
     #tof {
         left: 30%;
         top: 260px;
     }
+
     #text_moi {
-        margin: 450px auto 80px auto;
+        margin: 609px auto 80px auto;
         width: 100%;
     }
+
     .block {
         width: 90%;
     }
+
     .cadre {
         width: 35%;
         margin: 30px 3% 80px 7%;
     }
 }
 
-@media (min-width: 576px) and (max-width:767px) {
+@media (min-width: 576px) and (max-width: 767px) {
     h1 {
         font-size: 1.6em;
         padding-top: 120px;
     }
+
     #tof {
         left: 16%;
         top: 185px;
@@ -423,20 +459,24 @@ textarea {
         margin: 394px auto 80px auto;
         width: 92%;
     }
+
     .block {
         width: 90%;
     }
+
     .cadre {
         width: 70%;
         margin: 30px 0 80px 13.5%;
     }
+
     .cadho {
         flex-flow: column;
-}
+    }
 
     .h_skil {
-        margin: 0 ;
+        margin: 0;
     }
+
     .h_skil img {
         grid-area: 7;
         margin-right: 50px;
@@ -451,16 +491,20 @@ textarea {
         margin-left: 15px;
 
     }
+
     .timflag_gch {
         left: 140px;
     }
-    .dateflag_gch{
-        left:140px;
+
+    .dateflag_gch {
+        left: 140px;
     }
-    #cont{
+
+    #cont {
 
     }
-    form{
+
+    form {
         float: left;
     }
 }

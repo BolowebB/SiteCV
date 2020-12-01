@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
-    <meta name="keyword" >
+    <meta name="keyword">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CV</title>
-    <link rel="stylesheet" href="menu/menu.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="footer/footer.css">
+    <link rel="stylesheet" href="asset/css/menu.css">
+    <link rel="stylesheet" href="asset/css/index.css">
+    <link rel="stylesheet" href="asset/css/footer.css">
 </head>
 <body>
 
 <header>
-   <nav>
+    <nav>
         <div id="etat">
             <ul class="menu">
                 <li class="menu_hov"><a href="#competence">compétence </a></li>
@@ -24,12 +24,30 @@
             </ul>
 
             <div class="flex">
-                <div class="sous_menu" id="icone_b"><img src="image/alt_menu.png" id="icone" alt=""></div>
+                <div class="sous_menu" id="icone_b">
+                    <img src="asset/image/alt_menu.png" id="icone" alt="">
+                </div>
                 <ul id="icone_f">
-                    <li><a href="#"><img class="icone" id="ico_tel" src="image/tel.png" alt=""></a></li>
-                    <li><a href="https://www.linkedin.com/in/bertrand-bolosier/" target="_blank"><img class="icone" id="ico_linked" src="image/linkedin.png" alt=""></a></li>
-                    <li><a href="https://github.com/Boloxxx"><img class="icone" id="ico_git" src="image/github.png" alt=""></a></li>
-                    <li><a href="#"><img class="icone" id="ico_insta" src="image/inta.png" alt=""></a></li>
+                    <li>
+                        <a href="#">
+                            <img class="icone" id="ico_tel" src="asset/image/tel.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/bertrand-bolosier/" target="_blank">
+                            <img class="icone" id="ico_linked" src="asset/image/linkedin.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Boloxxx">
+                            <img class="icone" id="ico_git" src="asset/image/github.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="icone" id="ico_insta" src="asset/image/inta.png" alt="">
+                        </a>
+                    </li>
                 </ul>
             </div>
 
@@ -40,61 +58,77 @@
 
 <main>
     <div class="element" id="primo">
-            <H1>concepteur développeur d'application</H1>
+        <h1>concepteur développeur d'application</h1>
 
-            <div id="tof"></div>
-                <div id="text_moi"><p>  Titulaire, d’un baccalauréat Science Technologique de la Gestion (STG) spécialité Mercatique.<br> De mon expérience professionnelle je suis polyvalent, rigoureux, ponctuel et organisé dans mes tâches qui me facilite le travail en équipe. </p></div>
+        <div id="tof">
+            <img src="asset/image/moi.png" id="me_moi" alt="" title="">
+            <div class="flex">
+                <p id="mon_prenom">Bertrand <span id="mon_nom">BOLOSIER</span></p>
+            </div>
+        </div>
+        <div id="text_moi"><p></p>
+        </div>
 
-                <div id="act_cal"><a href="#competence"> <img src="image/fle_icone.png" id="flacc" alt=""></a>
-                </div>
-
-
-
-
+        <div id="act_cal"><a href="#competence"> <img src="asset/image/fle_icone.png" id="flacc" alt=""></a>
+        </div>
 
 
         <div id="competence"><H2>compétences</H2></div>
         <div class="cadho">
-            <div class="h_skil"> <img src="image/logo_php.png" alt=""><img src="image/etoile_php.png" alt="" class="eto"></div>
-                    <div class="h_skil"> <img src="image/logo_mysql.png" alt=""><img src="image/etoile_mysql.png" alt="" class="eto"></div>
-                     <div class="h_skil"> <img src="image/html_logo.png" alt=""><img src="image/etoile_html.png" alt="" class="eto"></div>
-                    <div class="h_skil"> <img src="image/logo_css.png" alt=""><img src="image/etoile_css.png" alt="" class="eto"></div>
-                <div class="h_skil"> <img src="image/logo_js.png" alt=""><img src="image/etoile_js.png" alt="" class="eto"></div>
+            <div class="h_skil"><img src="asset/image/logo_php.png" alt=""><img src="asset/image/etoile_php.png" alt=""
+                                                                                class="eto">
             </div>
+            <div class="h_skil"><img src="asset/image/logo_mysql.png" alt=""><img src="asset/image/etoile_mysql.png"
+                                                                                  alt=""
+                                                                                  class="eto"></div>
+            <div class="h_skil"><img src="asset/image/html_logo.png" alt=""><img src="asset/image/etoile_html.png"
+                                                                                 alt=""
+                                                                                 class="eto"></div>
+            <div class="h_skil"><img src="asset/image/logo_css.png" alt=""><img src="asset/image/etoile_css.png" alt=""
+                                                                                class="eto">
+            </div>
+            <div class="h_skil"><img src="asset/image/logo_js.png" alt=""><img src="asset/image/etoile_js.png" alt=""
+                                                                               class="eto">
+            </div>
+        </div>
         <div class="cadbas">
-            <img class="eto" src="image/etoile_soft.png" alt="">
+            <img class="eto" src="asset/image/etoile_soft.png" alt="">
             <div class="block">
                 <ul>
                     <li>Relation client.</li>
                     <li>Accueil et conseil du client.</li>
                     <li>Gestion des reclamations, des retours et
-                        des avoirs.</li>
+                        des avoirs.
+                    </li>
                     <li>Analyser les besoins du clients.</li>
                     <li>Analyser des problémes techniques.</li>
                     <li>Déterminer des mesures correctives.</li>
                     <li>Traiter l’information(collecter, classer et
-                        mettre à jour.)</li>
+                        mettre à jour.)
+                    </li>
                 </ul>
             </div>
         </div>
 
-<div id="diplome_formation">
-        <h2 >diplômes et formation</h2></div>
+        <div id="diplome_formation">
+            <h2>diplômes et formation</h2></div>
         <div class="cadre">
-            <h4>designer web</h4>
-            <p><strong>AECD<br> 2019</strong> <br> Titre professionnel de niveau 5 WEB DESIGN
+            <h3>designer web</h3>
+            <p><strong>AECD<br> 2019</strong><---balise strong definie importance de mot pour clé--> <br> Titre
+                professionnel de niveau 5 WEB DESIGN
             </p>
         </div>
-        <div class="cadre"><h4>intégrateur web</h4>
+        <div class="cadre"><h3>intégrateur web</h3>
             <p><strong>GRETA<br> 2018</strong><br> certificat professionnel
-             </p>
+            </p>
         </div>
-        <div class="cadre"><h4>1ere Général</h4>
+        <div class="cadre"><h3>1ere Général</h3>
             <p><strong>Campus Caribéen des Arts
             </strong></p>
         </div>
-        <div class="cadre"><h4>baccalauréat<br> technologique</h4>
-            <p><strong>Lycée<br> techno-compta<br> 2010-2011</strong> <br> Science et Technologie de la Gestion spécialité Mercatique</p>
+        <div class="cadre"><h3>baccalauréat<br> technologique</h3>
+            <p><strong>Lycée<br> techno-compta<br> 2010-2011</strong> <br> Science et Technologie de la Gestion
+                spécialité Mercatique</p>
         </div>
 
         <div id="parcour_pro">
@@ -106,45 +140,57 @@
         </div>
         <div class="timcadre">
             <ul id="timligne">
-               <li class="point"><span class="timflag_dr">ÉQUIPIER POLYVALENT MC DONALD ARCOS DORADOS<span class="dat_dr">2013 à 2018</span> </span><p class="dateflag_dr">Accueil des clients<br> restauration<br> prise de commande rapide et efficace</p> </li>
-                <li class="point"><span class="timflag_gch">SERVICES CMRO BNP PARIBAS<span class="dat_gch">Août 2010</span></span><p class="dateflag_gch">Gestion et classement de dossier bancaire</p> </li>
-                <li class="point"><span class="timflag_dr">SERVICE D'UNITÉ ADMINISTRATIVE BNP PARIBAS MARTINIQUE<span class="dat_dr">Juillet 2009</span></span><p class="dateflag_dr">Gestion et classement de donnée bancaire du service chéque de la société</p> </li>
-                <li class="point"><span class="timflag_gch">ACCUEIL PHYSIQUE BNP PARISBAS MARTINIQUE<span class="dat_gch">Juillet 2008</span></span><p class="dateflag_gch">Accueil et réception de la clientéle, éxecution des services bancaires avec gestion de coffre.</p> </li>
+                <li class="point"><span class="timflag_dr">ÉQUIPIER POLYVALENT MC DONALD ARCOS DORADOS<span
+                        class="dat_dr">2013 à 2018</span> </span>
+                    <p class="dateflag_dr">Accueil des clients<br> restauration<br> prise de commande rapide et efficace
+                    </p></li>
+                <li class="point"><span class="timflag_gch">SERVICES CMRO BNP PARIBAS<span
+                        class="dat_gch">Août 2010</span></span>
+                    <p class="dateflag_gch">Gestion et classement de dossier bancaire</p></li>
+                <li class="point"><span class="timflag_dr">SERVICE D'UNITÉ ADMINISTRATIVE BNP PARIBAS MARTINIQUE<span
+                        class="dat_dr">Juillet 2009</span></span>
+                    <p class="dateflag_dr">Gestion et classement de donnée bancaire du service chéque de la société</p>
+                </li>
+                <li class="point"><span class="timflag_gch">ACCUEIL PHYSIQUE BNP PARISBAS MARTINIQUE<span
+                        class="dat_gch">Juillet 2008</span></span>
+                    <p class="dateflag_gch">Accueil et réception de la clientéle, éxecution des services bancaires avec
+                        gestion de coffre.</p></li>
             </ul>
         </div>
-            <h2 id="contac">contact</h2>
+        <h2 id="contac">contact</h2>
         <form method="POST" id="form_type">
-    <div id="form_gch">
-        <div id="verif_nom"><label for="nom">Nom:</label>
-           <input name="nom" id="nom" type="text" placeholder="Nom*"></div>
-        <div id="verif_pre"> <label for="prenom">Prénom:</label>
-            <input name="prenom" id="prenom" type="text" placeholder="Prénom*"></div>
-            <div id="verif_email">  <label for="email">E-mail</label>
-            <input name="email" id="email" type="email" placeholder="email*"></div>
-    </div>
-        <div id="form_drt">
-            <label for="textarea">Votre message:</label>
-                <textarea name="textarea" id="textarea" maxlength="255" placeholder="Veuillez m'adresser votre message ici.">
+            <div id="form_gch">
+                <div id="verif_nom"><label for="nom">Nom:</label>
+                    <input name="nom" id="nom" type="text" placeholder="Nom*"></div>
+                <div id="verif_pre"><label for="prenom">Prénom:</label>
+                    <input name="prenom" id="prenom" type="text" placeholder="Prénom*"></div>
+                <div id="verif_email"><label for="email">E-mail</label>
+                    <input name="email" id="email" type="email" placeholder="email*"></div>
+            </div>
+            <div id="form_drt">
+                <label for="textarea">Votre message:</label>
+                <textarea name="textarea" id="textarea" maxlength="255"
+                          placeholder="Veuillez m'adresser votre message ici.">
             </textarea>
-        </div>
-            <div >
+            </div>
+            <div>
                 <input type="submit" value="Valider" id="sty_but">
             </div>
 
 
-    </form>
+        </form>
         <p>Les champs avec '*' sont obligatoire</p>
     </div>
 </main>
 
 <footer>
-    <a href="#">cgu</a>
+    <a href="#" title="">cgu</a>
     <p>Tel:<br>E-mail:<br>Adresse:<br></p>
 
     <a href="#">mention légale</a>
 </footer>
-
-<script type="text/javascript" src="index.js" rel="script"></script>
-<script rel="script" src="menu/menu.js" type="text/javascript"></script>
+<script type="text/javascript" src="asset/js/index.js" rel="script"></script>
+<script type="text/javascript" src="controller/formulaire.js" rel="script"></script>
+<script rel="script" src="asset/js/menu.js" type="text/javascript"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ ul{
     background-repeat: no-repeat;
     position: fixed;
     z-index: 100;
-    width: 100%;
+    width: 30%;
     display: flex;
     transition: all 250ms;
 }

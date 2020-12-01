@@ -19,19 +19,68 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb37f5f0-73b8-4b19-aa3c-e78d434436bb" name="Default Changelist" comment="site cv">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="eb37f5f0-73b8-4b19-aa3c-e78d434436bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/tel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b_comp.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/b_comp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/asset/footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Adobe_Photoshop.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/Adobe_Photoshop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/CSS3.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/CSS3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/JavaScript-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/JavaScript-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/MySQL.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/MySQL.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Sans titre-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/Sans titre-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Sans-titre-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/Sans-titre-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/adobe-xd.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/adobe-xd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/b_acc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/b_acc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/b_comp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/b_comp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/b_comp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/b_detc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/b_detc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cirnote.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/cirnote.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/creativcloud.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/creativcloud.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/creative.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/creative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/dossier.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/dossier.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/eng_drap.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/eng_drap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/etoile_css.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/etoile_css.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/etoile_html.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/etoile_html.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/etoile_js.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/etoile_js.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/etoile_mysql.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/etoile_mysql.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/etoile_php.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/etoile_php.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/etoile_soft.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/etoile_soft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/f_acc.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/f_acc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/fd-re.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/fd-re.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/fle_icone.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/fle_icone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/github-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/github-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/githublogo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/githublogo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/html.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/html.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/html_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/html_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ico_email.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/ico_email.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ico_phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/ico_phone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/ico_portefolio.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/ico_portefolio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/icone_acc.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/icone_acc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/illustrator.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/illustrator.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/javascript_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/javascript_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/logo_css.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/logo_css.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/logo_js.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/logo_js.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/logo_mysql.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/logo_mysql.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/logo_php.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/logo_php.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/menu" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/menu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/menu_hidden.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/menu_hidden.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/menu_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/menu_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/phone-battery-charge-status-flat-symbols-set/6624.eps" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/phone-battery-charge-status-flat-symbols-set/6624.eps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/phone-battery-charge-status-flat-symbols-set/6624.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/phone-battery-charge-status-flat-symbols-set/6624.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/phone-battery-charge-status-flat-symbols-set/License free.txt" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/phone-battery-charge-status-flat-symbols-set/License free.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/phone-battery-charge-status-flat-symbols-set/License premium.txt" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/phone-battery-charge-status-flat-symbols-set/License premium.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/php.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/php.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/tel.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/tel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/vector_phone.vectornator" beforeDir="false" afterPath="$PROJECT_DIR$/asset/image/vector_phone.vectornator" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/formulaire.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/asset/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/asset/menu/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/backgroungvid.mov" beforeDir="false" afterPath="$PROJECT_DIR$/asset/video/backgroungvid.mov" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,12 +134,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/menu" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/asset/image" />
+      <recent name="$PROJECT_DIR$/asset/css" />
+      <recent name="$PROJECT_DIR$/asset/js" />
+      <recent name="$PROJECT_DIR$/controller" />
+      <recent name="$PROJECT_DIR$/asset" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -117,8 +170,26 @@
       <workItem from="1605624367217" duration="5107000" />
       <workItem from="1605690017733" duration="35472000" />
       <workItem from="1605795141373" duration="51273000" />
-      <workItem from="1606139153274" duration="3433000" />
+      <workItem from="1606139153274" duration="3792000" />
+      <workItem from="1606205045110" duration="1524000" />
+      <workItem from="1606221556189" duration="550000" />
+      <workItem from="1606231077012" duration="1740000" />
+      <workItem from="1606304770091" duration="545000" />
+      <workItem from="1606464695123" duration="49000" />
+      <workItem from="1606586467664" duration="11940000" />
+      <workItem from="1606658916367" duration="1394000" />
+      <workItem from="1606723876621" duration="70000" />
+      <workItem from="1606752695516" duration="1117000" />
+      <workItem from="1606811040522" duration="254000" />
     </task>
+    <task id="LOCAL-00001" summary="site_V1">
+      <created>1606146250274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606146250275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +209,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="site cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="site cv" />
+    <MESSAGE value="V1" />
+    <MESSAGE value="site_V1" />
+    <option name="LAST_COMMIT_MESSAGE" value="site_V1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="302" y="103" key="#CLI_Interpreters" timestamp="1605772253913">
@@ -165,11 +238,11 @@
       <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="426" y="120" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1440.833@0.23.1440.833" timestamp="1603893007577" />
-    <state x="304" y="0" width="831" height="828" key="CommitChangelistDialog2" timestamp="1606145987637">
+    <state x="304" y="0" width="831" height="828" key="CommitChangelistDialog2" timestamp="1606146250077">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="304" y="25" width="831" height="828" key="CommitChangelistDialog2/0.-1055.1920.1055/0.25.1440.828@0.25.1440.828" timestamp="1605690051244" />
-    <state x="304" y="0" key="CommitChangelistDialog2/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1606145987637" />
+    <state x="304" y="0" key="CommitChangelistDialog2/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1606146250077" />
     <state x="543" y="350" key="NewPhpFileDialog" timestamp="1603807545624">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
@@ -180,6 +253,10 @@
     <state x="221" y="59" key="SettingsEditor/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1605626762113" />
     <state x="221" y="78" key="SettingsEditor/0.23.1440.833@0.23.1440.833" timestamp="1603891871076" />
     <state x="221" y="78" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1603886353089" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1606146256508">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1606146256508" />
     <state x="517" y="361" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604910394968">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
