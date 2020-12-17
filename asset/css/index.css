@@ -5,10 +5,6 @@
     scroll-behavior: smooth;
 }
 
-header {
-
-}
-
 
 body {
     height: auto;
@@ -21,8 +17,6 @@ body {
 main {
     width: auto;
     height: auto;
-
-
 }
 
 h1 {
@@ -34,11 +28,15 @@ h1 {
 }
 
 .element {
-    background-repeat: no-repeat;
     min-width: 100%;
     height: auto;
     width: auto;
     display: block;
+    padding-top: 15%;
+}
+
+#diplome_formation {
+    margin-bottom: 350px;
 }
 
 #primo {
@@ -57,7 +55,7 @@ h1 {
     left: 21%;
     border-radius: 10% 10%;
     box-shadow: -12px 9px 20px -4px rgba(0, 0, 0, 0.75);
-    top: 510px;
+    top: 790px;
     z-index: 9;
     background-image: url("../image/man.jpg");
 }
@@ -91,16 +89,22 @@ h1 {
     0% {
         /*transform: translate3d(-100%, 0, 0);*/
         transform: translate(-100%);
+        opacity: 0;
+        font-size: 0.1em;
     }
     100% {
         /*transform: translate3d(0,0,50px);*/
         transform: translate(0);
+        opacity: 100%;
+        font-size: 2em;
     }
 }
 
 #mon_prenom {
+
+    font-size: 2em;
     animation-name: slide;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 
 }
 
@@ -153,7 +157,6 @@ h2 {
     font-size: 3em;
     color: black;
     font-family: "Courier New", Courier, sans-serif;
-    margin-top: 150px;
     margin-bottom: 150px;
     text-transform: uppercase;
 }
@@ -191,9 +194,10 @@ h2 {
     width: 30%;
     height: auto;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 150px auto;
     padding: 15px;
     background-color: whitesmoke;
+
 }
 
 .block ul {
@@ -209,24 +213,13 @@ h2 {
     line-height: 35px;
 }
 
-
-#trio {
-    background-repeat: no-repeat;
-    min-width: 100%;
-    height: auto;
-    width: auto;
-    background-image: url("../image/b_detc.jpg");
-    background-size: cover;
-}
-
-
 .cadre {
     width: 20%;
     height: 500px;
     background-color: white;
     border-radius: 5%;
     display: inline-grid;
-    margin: 200px 0 80px 2.5%;
+    margin: 0 0 80px 2.5%;
     border: outset 2px #f33;
 }
 
@@ -465,8 +458,7 @@ textarea {
     }
 
     .cadre {
-        width: 70%;
-        margin: 30px 0 80px 13.5%;
+
     }
 
     .cadho {
